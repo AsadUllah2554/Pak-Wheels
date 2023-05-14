@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>About Us</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+        <a href="index.html" class="logo"> <span>Pak</span>wheels </a>
+    
+        <nav class="navbar">
+    
+            <a href="index.html">Home</a>
+            <a href="about us.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="products details.html">Products Details</a>
+            <a href="contact us.html">Contact Us</a>
+    
+    
+        </nav>
+    
+        
+    
+    </header>
+    
+
+
+<br><br><br><br><br><br><br>> <hr>
+<h1> About Us</h1>
+		<section class="about-us">
+			
+			<p><h3>>We are a car e-commerce store that offers a wide range of cars to suit all budgets and needs. Our mission is to provide our customers with the best possible car buying experience, from start to finish.</p>
+			<p>Whether you're looking for a brand new car or a used one, we have a wide selection to choose from. Our team of experts is always ready to help you find the perfect car for your needs and budget.</p>
+			<p>We also offer financing options, so you can get the car you want without breaking the bank. Our financing team will work with you to find the best possible solution for your situation.</h3</p>
+		</section>
+		
+
+        <section class="footer">
+
+            <div class="box-container">
+        
+                <div class="box">
+                    <h3>our branches</h3>
+                    <a href="#"> <i class="fas fa-map-maker-alt"></i> Lahore  </a>
+                    <a href="#"> <i class="fas fa-map-maker-alt"></i>  Karachi  </a>
+                    <a href="#"> <i class="fas fa-map-maker-alt"></i>  Peshawar  </a>
+                    <a href="#"> <i class="fas fa-map-maker-alt"></i> Islamabad </a>
+                    <a href="#"> <i class="fas fa-map-maker-alt"></i>  Multan </a>
+        
+        
+                </div>
+        
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="index.html"> <i class="fas fa-arrow-right"></i> home  </a>
+                    <a href="about us.html"> <i class="fas fa-arrow-right"></i> About Us  </a>
+                    <a href="products.html"> <i class="fas fa-arrow-right"></i> Products  </a>
+                    <a href="products details.html"> <i class="fas fa-arrow-right"></i> Products Details  </a>
+                    <a href="contact us.html"> <i class="fas fa-arrow-right"></i> contact Us</a>
+        
+        
+                </div>
+        
+        
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#"> <i class="fas fa-facebook-f"></i> Facebook  </a>
+                    <a href="#"> <i class="fas fa-twitter"></i> Twitter  </a>
+                    <a href="#"> <i class="fas fa-instagram"></i> Instagram  </a>
+                    <a href="#"> <i class="fas fa-linkedin"></i> Linkedin  </a>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+        
+</body>
+<script>
+
+    //  for Responsive menu
+    let menu = document.querySelector('#menu-btn')
+    let navbar = document.querySelector('.navbar')
+    
+    menu.onclick = () => {
+        console.log("Clicked")
+        menu.classList.toggle('ri-close-line')
+        navbar.classList.toggle('open')
+        
+    }
+    
+    window.onscroll = () => {
+        menu.classList.remove('ri-close-line')
+        navbar.classList.remove('open')
+    }
+    
+    </script>
+</html>
+
+
